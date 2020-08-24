@@ -1,1 +1,1 @@
-/notatki_todo_list.txt
+notatki_todo_list.txt
