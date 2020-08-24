@@ -1,0 +1,150 @@
+/* Index */
+@media (min-width:768px)
+{
+    .description{
+        min-height:75px;
+    }
+}
+/* Menu */
+main hr{
+    border-color:black;
+    width:85%;
+}
+main{
+    /* background: #e4ae1a; */
+    background: rgb(210, 168, 30);
+    /* background: rgb(241, 206, 90); */
+}
+.border-r{
+    /* linia prawostronna, oddzielająca części menu */
+    border-right: none;
+}
+@media screen and (min-width: 992px){
+    .border-r {
+      border-right: 1px solid black;
+    }
+      }
+/* h1{
+    font-family: 'Patua One', cursive;
+} */
+
+/* Locations */
+#our-loc{
+    /* padding-left:10%; */
+    padding: 10px 0 20px 0;
+    text-align: center;
+}
+
+.loc-break{
+    border-top: 0.5px solid lavender;
+    width:80%;
+    margin: 20px auto  ;
+    order:0;
+}
+.thin-hr{
+    border-color:lavender;
+    width: 60%;
+    margin: 25px auto  ;
+    
+}
+.container-flex{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.item{
+    
+    margin:25px 15px;
+    text-align: center;
+    order:0;
+    max-width:600px;
+    min-width:200px;
+    height:400px ; 
+    flex: 1 1 600px ;
+}
+.form-control{
+    flex-shrink: 1;
+    
+}
+.form-inline{
+    flex-wrap: nowrap;
+}
+
+@media (min-width:1107px){
+    .item{
+        flex: 1 1 500px; 
+    }
+    .order-1{
+        order:1;
+    }
+    .order-2{
+        order:2;
+    }
+    
+}
+
+
+.loc-info{
+    border:1px solid lavender;
+    width:100%;
+    height:100%;
+    display: inline-block;
+    padding-top:70px;
+}
+/* Navigation bar*/
+li{
+    font-size: 20px;
+}
+nav h2{
+    padding-right: 20px;
+    font-size:40px;
+    /* font-family: 'Alfa Slab One', cursive; */
+    font-family: 'Patua One', cursive;
+    text-decoration: none;
+}
+
+@media (min-width:576px) {
+    .form-inline .form-control{
+        width:70%;
+    }
+
+}
+@media (min-width:870px) {
+    .form-inline .form-control{
+        flex-shrink: 1;
+    }
+
+}
+
+.col-md-4 > img{
+    width: 140px;
+    height: 140px;
+}
+.col-md-6 > img{
+    width: 140px;
+    height: 140px;
+}
+.col-md-6 > h4{
+    padding: 10px 0;
+}
+
+/* Buttons */
+.btn-primary{
+    background: brown;
+    border:none;
+}
+.btn-primary:hover{
+    background: rgb(116, 21, 21);
+}
+.btn-secondary{
+    background: rgb(214, 172, 56);
+    border:none;
+}
+.btn-secondary:hover{
+    background:  rgb(194, 152, 36);
+}
+.bg-warm {
+    color: black;
+    background: rgb(210, 168, 30);
+}
+
