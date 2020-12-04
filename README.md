@@ -1,5 +1,5 @@
 # BurgerBar-Website
-Project of Burger Bar website is based on **html, css and bootstrap**. 
+Project of Burger Bar website is based on **HTML, CSS and Bootstrap**. 
 
 I work on it to get expirience and more practise in frontend development.
 
